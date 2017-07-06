@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.master.cs" Inherits="CMS_ContainMS_.SiteAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <link href="~/Scripts/MasterPage.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container Management System ADMIN</title>
+
+    <link href="~/Scripts/MasterPage.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link href="~/Styles1/Style.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles1/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div class="center">
+                    <ul>
+                        <li><a runat="server" href="../Admin/admin_index.aspx">Home</a></li>
+                         <li><a runat="server" href="../Admin/viewReport.aspx">View Report</a></li>
+                         <li><a runat="server" href="../Admin/manageUser.aspx">Manage User</a></li>
+                         <li class="right"><a runat="server" onServerClick="MyFuncion_Click" >Log Out</a></li>
+                    </ul>
+                </div>
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

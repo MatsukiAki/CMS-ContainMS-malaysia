@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="conn-Web.config Connection String" description="conn Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:cmscms.database.windows.net,1433;Initial Catalog=CMS;Persist Security Info=False;User ID=buddev;Password=Usmani12;&#xD;&#xA;         MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Arsalan\\Documents\\Visual\ Studio\ 2017\\Projects\\CMS\(ContainMS\)\\CMS\(ContainMS\)\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='conn']/@connectionString" />
+  </parameter>
+  <parameter name="conn1-Web.config Connection String" description="conn1 Connection String used in web.config by the application to access the database." defaultValue="Data Source= DESKTOP-BUDDY\MYSERVER;Initial Catalog=CMS; User Id = sa; Password=test;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Arsalan\\Documents\\Visual\ Studio\ 2017\\Projects\\CMS\(ContainMS\)\\CMS\(ContainMS\)\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='conn1']/@connectionString" />
+  </parameter>
+</parameters>
