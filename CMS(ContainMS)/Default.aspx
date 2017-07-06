@@ -58,6 +58,14 @@
         </div>
     </div>
     </div>
+
+        <div runat="server" style="float:right"> 
+
+            <asp:Label ID="cu" runat="server" Text="Currently visting this webiste from Malaysia"></asp:Label>
+            
+
+            </div>
+
     <div id="id01" class="modal">
         <div class="modal-content animate">
         <div class="imgcontainer">
